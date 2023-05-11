@@ -1,0 +1,43 @@
+.main-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.main-header__list {
+  display: flex;
+}
+
+.main-header__item + .main-header__item {
+  margin-left: 33px;
+}
+
+.main-header__link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+.main-header__btn {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url(../../img/header-menu.svg);
+  display: none;
+}
+
+@media screen and (max-width:660px) {
+  .main-header__btn {
+    display: inline-block;
+  }
+  .main-header__nav {
+    display: none;
+  }
+}
