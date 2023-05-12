@@ -21,6 +21,9 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #83888F;
+  &:active {
+    color: #333D4B;
+  }
 }
 
 .main-header__btn {

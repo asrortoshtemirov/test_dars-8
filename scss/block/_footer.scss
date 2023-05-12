@@ -35,6 +35,9 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #83888F;
+  &:active {
+    color: #FEFCF7;
+  }
 }
 
 .footer__icon-list {
@@ -45,6 +48,10 @@
 
 .footer__icon-item {
   flex-shrink: 0;
+}
+
+.footer__icon-link:active {
+  background-color: #FDD6BA;
 }
 
 .footer__icon-link img{

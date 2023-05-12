@@ -124,6 +124,9 @@ body {
   text-transform: uppercase;
   color: #83888F;
 }
+.main-header__link:active {
+  color: #333D4B;
+}
 
 .main-header__btn {
   width: 16px;
@@ -190,6 +193,9 @@ body {
   border: none;
   color: #FEFCF7;
   cursor: pointer;
+}
+.hero__btn:active {
+  background: #66D2CF;
 }
 
 @media screen and (max-width: 1000px) {
@@ -627,6 +633,9 @@ body {
   cursor: pointer;
   margin-top: 64px;
 }
+.work__btn:active {
+  background: #66D2CF;
+}
 
 @media screen and (max-width: 646px) {
   .work__title {
@@ -704,6 +713,9 @@ body {
   text-transform: uppercase;
   color: #83888F;
 }
+.footer__link:active {
+  color: #FEFCF7;
+}
 
 .footer__icon-list {
   display: -webkit-box;
@@ -718,6 +730,10 @@ body {
 .footer__icon-item {
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+
+.footer__icon-link:active {
+  background-color: #FDD6BA;
 }
 
 .footer__icon-link img {
